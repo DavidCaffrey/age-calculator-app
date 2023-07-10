@@ -1,0 +1,62 @@
+:root {
+  /* Colors */
+  /* Primary */
+  --clr-primary: hsl(259, 100%, 65%);
+  --clr-error: hsl(0, 100%, 67%);
+  /* Neutral */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-off-white: hsl(0, 0%, 94%);
+  --clr-l-grey: hsl(0, 0%, 86%);
+  --clr-smokey-grey: hsl(0, 1%, 44%);
+  --clr-off-black: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-off-white);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.card {
+  background-color: var(--clr-white);
+  max-width: 50%;
+}
+
+.form-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.date-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Remove Arrows W3schools */
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*  styles by FEM */
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
